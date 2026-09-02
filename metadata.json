@@ -1,0 +1,8 @@
+{
+  "name": "Remix Personal Gemini Journal",
+  "description": "A secure personal journal featuring multi-turn AI brainstorming, automated summaries, emotion and topic extraction, and an analytics dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
