@@ -1,16 +1,22 @@
 # Personal Gemini Journal 📓✨
+*Private, secure introspective journaling with AI brainstorming & emotional analytics.*
 
-An authenticated, production-grade journaling web application that leverages the Gemini API for multi-turn brainstorming and automated emotional analytics. Built for the #AccelerateAIwithCloudRun Ideathon.
+Built for the **#AccelerateAIwithCloudRun Ideathon**, this application provides a secure space to break down overwhelming responsibilities and track emotional trends over time.
 
-## Features
-* **Secure Authentication:** Integrated Firebase Authentication for user sign-up, sign-in, and instant guest access.
-* **Isolated Data Storage:** Cloud Firestore database architecture utilizing strict security rules (`/users/{uid}/journal_entries`) to guarantee zero cross-user data leakage.
-* **Multi-Turn AI Brainstorming:** Real-time conversational journaling using the Gemini API.
-* **Automated Insights Dashboard:** Extracts primary sentiment and core topics from journal summaries to visualize mood trends and journaling habits over time.
-* **Production Deployment:** Containerized and deployed on Google Cloud Run, utilizing server-side environment variables for secure API key management.
+**🚀 Live Demo & Walkthrough**
+* **Live App:** https://personal-journal-1230.ai.studio
+* **Video Demo:** [Insert LinkedIn Video Link Here]
+* *(Add a screenshot of your analytics dashboard here!)*
 
-## Tech Stack
-* **Frontend:** React / TypeScript / HTML / CSS
-* **Backend:** Node.js / Google AI Studio Configuration
-* **Database & Auth:** Firebase / Cloud Firestore
-* **Hosting:** Google Cloud Run
+**🌟 Key Features**
+* **Secure Isolation:** Firebase Auth and strict Firestore security rules (`/users/{uid}`) guarantee zero cross-user data leakage.
+* **Multi-Turn AI:** Real-time conversational journaling powered by the Gemini API.
+* **Automated Insights:** Extracts core topics and sentiments to visualize mood trends.
+* **Production Deployment:** Containerized and hosted on Google Cloud Run.
+
+**🛠 Architecture & Tech Stack**
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | React (Vite), TypeScript, HTML, CSS |
+| **Backend & DB** | Node.js, Firebase Auth, Cloud Firestore |
+| **AI & Cloud** | Google AI Studio (Gemini), Google Cloud Run |
